@@ -20,7 +20,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 
--   change: use sequelize-cli as an alias for the binary [#812](https://github.com/sequelize/cli/pull/812)
+-   change: use sequelize-cli-mod as an alias for the binary [#812](https://github.com/sequelize/cli/pull/812)
 
 ## v5.5.0 - 11th, June 2019
 

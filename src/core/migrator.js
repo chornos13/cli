@@ -47,6 +47,7 @@ export function getMigrator (type, args) {
       storageOptions: helpers.umzug.getStorageOptions(type, { sequelize }),
       logging: helpers.view.log,
       migrations: {
+        traverseDirectories: true,
         params: [sequelize.getQueryInterface(), Sequelize],
         path: helpers.path.getPath(type),
         pattern: /\.js$/,

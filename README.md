@@ -1,4 +1,4 @@
-# sequelize/cli [![npm version](https://badge.fury.io/js/sequelize-cli.svg)](https://npmjs.com/package/sequelize-cli) [![Build Status](https://travis-ci.org/sequelize/cli.svg?branch=master)](https://travis-ci.org/sequelize/cli)
+# sequelize/cli [![npm version](https://badge.fury.io/js/sequelize-cli-mod.svg)](https://npmjs.com/package/sequelize-cli-mod) [![Build Status](https://travis-ci.org/sequelize/cli.svg?branch=master)](https://travis-ci.org/sequelize/cli)
 
 The [Sequelize](https://sequelize.org) Command Line Interface (CLI)
 
@@ -13,8 +13,8 @@ The [Sequelize](https://sequelize.org) Command Line Interface (CLI)
 Make sure you have [Sequelize](https://sequelize.org) installed. Then install the Sequelize CLI to be used in your project with
 
 ```bash
-npm install --save-dev sequelize-cli // will install v5
-npm install --save-dev sequelize-cli@next // will install v6
+npm install --save-dev sequelize-cli-mod // will install v5
+npm install --save-dev sequelize-cli-mod@next // will install v6
 ```
 
 And then you should be able to run the CLI with
