@@ -50,7 +50,7 @@ export function getMigrator (type, args) {
         traverseDirectories: true,
         params: [sequelize.getQueryInterface(), Sequelize],
         path: helpers.path.getPath(type),
-        pattern: /\.js$/,
+        pattern: /\.(js|ts)$/,
         wrap: fun => {
           if (fun.length === 3) {
             return promisify(fun);
