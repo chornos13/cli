@@ -1,10 +1,10 @@
 {
   "name": "sequelize-cli-mod",
-  "version": "6.0.0-beta.2",
+  "version": "6.0.0-beta.3",
   "description": "The Sequelize CLI",
   "bin": {
-    "sequelize-mod": "./lib/sequelize",
-    "sequelize-cli-mod": "./lib/sequelize"
+    "sequelize": "./lib/sequelize",
+    "sequelize-cli": "./lib/sequelize"
   },
   "files": [
     "lib"
